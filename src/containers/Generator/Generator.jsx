@@ -85,17 +85,7 @@ function Generator() {
       };
 
       teams.push(teamObject);
-
-      // Log the assigned agents for each team
-      console.log(`Team ${i + 1} Agents:`, teamAgents);
     }
-
-    console.log("Generate button clicked");
-    console.log("Players:", players);
-    console.log("Team Count:", teamCount);
-    console.log("Generate Team Name:", generateTeamName);
-    console.log("Generated Teams:", teams);
-    console.log(randomMap);
 
     setGeneratedTeams(teams);
   };
