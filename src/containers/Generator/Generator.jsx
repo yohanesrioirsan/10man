@@ -7,6 +7,7 @@ import GeneratedAgentsCard from "../../components/Card/GeneratedAgentsCard/Gener
 import GeneratedMap from "../../components/Generated/GeneratedMap";
 import teamNames from "../../json/teamName.json";
 import valorantAgentsData from "../../json/valorantAgent.json";
+import valorantMapsData from "../../json/valorantMaps.json";
 import "./Generator.css";
 
 function Generator() {
@@ -17,22 +18,7 @@ function Generator() {
   const [generateValorantMap, setGenerateValorantMap] = useState("no");
   const [generatedTeams, setGeneratedTeams] = useState([]);
   const [valorantAgents, setValorantAgents] = useState([]);
-  const [mapData, setMapData] = useState([]);
   const [randomMap, setRandomMap] = useState(null);
-
-  const fetchData = async () => {
-    try {
-      const response = await fetch("./src/json/valorantMaps.json");
-      const jsonData = await response.json();
-      setMapData(jsonData);
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
 
   useEffect(() => {
     setValorantAgents(valorantAgentsData);
@@ -88,8 +74,8 @@ function Generator() {
       }
 
       if (generateValorantMap === "yes") {
-        const randomIndex = Math.floor(Math.random() * mapData.length);
-        setRandomMap(mapData[randomIndex]);
+        const randomIndex = Math.floor(Math.random() * valorantMapsData.length);
+        setRandomMap(valorantMapsData[randomIndex]);
       }
 
       const teamObject = {
@@ -109,6 +95,7 @@ function Generator() {
     console.log("Team Count:", teamCount);
     console.log("Generate Team Name:", generateTeamName);
     console.log("Generated Teams:", teams);
+    console.log(randomMap);
 
     setGeneratedTeams(teams);
   };
