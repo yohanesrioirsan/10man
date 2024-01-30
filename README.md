@@ -1,8 +1,31 @@
-# React + Vite
+# About
+10 Man is website that can generate team if you want to play custom fun match in valorant (or maybe just use it to generate a random team). You can add 10 or more players and generate as what you want.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features / Project Details
+- Generate Random Team Name (Default: Team {i + 1})
+- Generate Random Valorant Agents
+- Generate Random Valorant Maps
+  
+![image](https://github.com/yohanesrioirsan/10man/assets/82473445/ca4a1e38-7573-4090-b4c0-f3d27b9063f3)
 
-Currently, two official plugins are available:
+# Input
+![image](https://github.com/yohanesrioirsan/10man/assets/82473445/91f6a64b-dc8c-4550-9729-b56f24704f0e)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Output
+- Config [Generate Team Name: No, Generate Valorant Agent: No, Generate Valorant Maps: No]
+
+![image](https://github.com/yohanesrioirsan/10man/assets/82473445/7614b76c-ca79-453a-b4e6-b7eaee5af43f)
+
+- Config [Generate Team Name: Yes, Generate Valorant Agent: Yes, Generate Valorant Maps: Yes]
+
+
+![image](https://github.com/yohanesrioirsan/10man/assets/82473445/220c0761-26c1-495d-a1fb-50f736f7400a)
+
+# Build with React + Vite, Bootstrap
+How To Run : 
+- Git Clone This repository
+- npm install
+- npm run dev to run
+
+Likes/stars/forks would be greatly appreciated, and feel free to use this project as an educational resource. For any kind of issues, bugs, or errors, please feel free to contact me. Thank you :).
