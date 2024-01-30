@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ASCENT",
+    "image": "./src/assets/valorant-maps/Loading_Screen_Ascent.webp"
+  },
+  {
+    "name": "BIND",
+    "image": "./src/assets/valorant-maps/Loading_Screen_Bind.webp"
+  },
+  {
+    "name": "BREEZE",
+    "image": "./src/assets/valorant-maps/Loading_Screen_Breeze.webp"
+  },
+  {
+    "name": "FRACTURE",
+    "image": "./src/assets/valorant-maps/Loading_Screen_Fracture.webp"
+  },
+  {
+    "name": "HAVEN",
+    "image": "./src/assets/valorant-maps/Loading_Screen_Haven.webp"
+  },
+  {
+    "name": "ICEBOX",
+    "image": "./src/assets/valorant-maps/Loading_Screen_Icebox.webp"
+  },
+  {
+    "name": "LOTUS",
+    "image": "./src/assets/valorant-maps/Loading_Screen_Lotus.webp"
+  },
+  {
+    "name": "SPLIT",
+    "image": "./src/assets/valorant-maps/Loading_Screen_Split.webp"
+  },
+  {
+    "name": "SUNSET",
+    "image": "./src/assets/valorant-maps/Loading_Screen_Sunset.webp"
+  }
+]

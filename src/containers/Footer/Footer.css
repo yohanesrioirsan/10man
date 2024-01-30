@@ -1,0 +1,19 @@
+footer {
+  margin-bottom: 4rem;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+  color: #2e59cf;
+}
+
+footer h4 {
+  text-align: center;
+  color: #2e59cf;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}

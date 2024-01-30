@@ -1,0 +1,41 @@
+.header-hero {
+  height: 80vh;
+}
+
+.header-hero-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.header-text h1 {
+  font-size: 57px;
+  font-weight: bold;
+  color: #401c82;
+}
+
+.header-sub-text {
+  width: 50%;
+}
+
+.header-sub-text p {
+  font-size: 18px;
+  color: #401c82;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #401c82;
+  }
+  .header-sub-text {
+    width: 100%;
+  }
+  .header-sub-text p {
+    font-size: 14px;
+    color: #401c82;
+  }
+}
