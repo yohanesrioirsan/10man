@@ -7,7 +7,7 @@ import GeneratedAgentsCard from "../../components/Card/GeneratedAgentsCard/Gener
 import GeneratedMap from "../../components/Generated/GeneratedMap";
 import teamNames from "../../json/teamName.json";
 import valorantAgentsData from "../../json/valorantAgent.json";
-import "./generator.css";
+import "./Generator.css";
 
 function Generator() {
   const [players, setPlayers] = useState("");
