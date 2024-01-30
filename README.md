@@ -1,5 +1,5 @@
 # About
-10 Man is website that can generate team if you want to play custom fun match in valorant (or maybe just use it to generate a random team). You can add 10 or more players and generate as what you want.
+10 Man is website that can generate team if you want to play custom fun match in valorant (or maybe just use it to generate a random team). You can add 10 or more players and generate as what you want. 
 
 # Features / Project Details
 - Generate Random Team Name (Default: Team {i + 1})
@@ -21,6 +21,11 @@
 
 
 ![image](https://github.com/yohanesrioirsan/10man/assets/82473445/220c0761-26c1-495d-a1fb-50f736f7400a)
+
+# Project Design
+
+![Web 1366 – 1](https://github.com/yohanesrioirsan/10man/assets/82473445/417e9bc5-7dd2-4a35-916a-a37479e8cc6d)
+
 
 # Build with React + Vite, Bootstrap
 How To Run : 
