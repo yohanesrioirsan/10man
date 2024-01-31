@@ -30,7 +30,7 @@
 # Build with React + Vite, Bootstrap
 How To Run : 
 - Git Clone This repository
-- npm install
-- npm run dev to run
+- npm install //install all dependencies
+- npm run dev //running on local (remove --host on package.json if you dont want to expose on your network)
 
 Likes/stars/forks would be greatly appreciated, and feel free to use this project as an educational resource. For any kind of issues, bugs, or errors, please feel free to contact me. Thank you :).
