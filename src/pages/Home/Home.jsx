@@ -6,14 +6,16 @@ import Footer from "../../../src/containers/Footer/Footer";
 
 function Home() {
   return (
-    <header>
-      <Container>
+    <Container>
+      <header>
         <NavBar />
         <Header />
+      </header>
+      <main>
         <Generator />
-        <Footer />
-      </Container>
-    </header>
+      </main>
+      <Footer />
+    </Container>
   );
 }
 
