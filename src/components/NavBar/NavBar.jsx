@@ -8,7 +8,11 @@ function NavBar() {
         <h1 className="home-logo">10Man</h1>
       </div>
       <div>
-        <a href="https://github.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/yohanesrioirsan/10man"
+          target="_blank"
+          rel="noreferrer"
+        >
           <SecondaryButton value="GitHub" />
         </a>
       </div>
