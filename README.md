@@ -2,6 +2,7 @@
 10 Man is website that can generate team if you want to play custom fun match in valorant (or maybe just use it to generate a random team). You can add 10 or more players and generate as what you want. 
 
 # Features / Project Details
+<a href="10manfun.vercel.app">Website Demo</a>
 - Generate Random Team Name (Default: Team {i + 1})
 - Generate Random Valorant Agents
 - Generate Random Valorant Maps
