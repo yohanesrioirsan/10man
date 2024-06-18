@@ -4,6 +4,10 @@
     "image": "https://raw.githubusercontent.com/yohanesrioirsan/10man/master/src/assets/valorant-maps/Loading_Screen_Ascent.webp"
   },
   {
+    "name": "ABYSS",
+    "image": "https://raw.githubusercontent.com/yohanesrioirsan/10man/master/src/assets/valorant-maps/Loading_Screen_Abyss.webp"
+  },
+  {
     "name": "BIND",
     "image": "https://raw.githubusercontent.com/yohanesrioirsan/10man/master/src/assets/valorant-maps/Loading_Screen_Bind.webp"
   },
@@ -26,6 +30,10 @@
   {
     "name": "LOTUS",
     "image": "https://raw.githubusercontent.com/yohanesrioirsan/10man/master/src/assets/valorant-maps/Loading_Screen_Lotus.webp"
+  },
+  {
+    "name": "PEARL",
+    "image": "https://raw.githubusercontent.com/yohanesrioirsan/10man/master/src/assets/valorant-maps/Loading_Screen_Pearl.webp"
   },
   {
     "name": "SPLIT",
